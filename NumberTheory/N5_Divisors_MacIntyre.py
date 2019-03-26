@@ -8,7 +8,7 @@ Created on Tue Mar 26 12:55:59 2019
 n = 496  # change to which integer you would like to get proper divisors for
 
 def divisors(n): #checks integer set to n for proper divisors
-    i = 1 # used as a count and to check integers greater then 1 and less than n
+    i = 1 # used as a count and to check integers greater then 0 and less than n
     divList = []
     while i < n:
         if n % i == 0:
