@@ -5,7 +5,7 @@ Created on Tue Mar 26 12:55:59 2019
 @author: Tucker MacIntyre
 """
 
-n = 496  # change to which integer you would like to get proper divisors for
+n = 100  # change to which integer you would like to get proper divisors for
 
 def divisors(n): #checks integer set to n for proper divisors
     i = 1 # used as a count and to check integers greater then 0 and less than n
@@ -14,10 +14,7 @@ def divisors(n): #checks integer set to n for proper divisors
         if n % i == 0:
             divList.append(i)
         i += 1
-    
-    if n == 1: 
-        divList.append(n)
-    
+
     return divList
 
 
