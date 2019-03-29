@@ -17,14 +17,15 @@ def divisors(N): #checks integer set to n for proper divisors
 
 
 
-N = 2500  # change to which integer you would like to get proper divisors for
+N = 2000  # Choose your upper bound
 amicableList = []
 
 for a in range(1,N + 1):
     b = divisors(a)
     
-    if divisors(b) == a and divisors(a) == b:
+    if divisors(b) == a: #and divisors(a) == b:
         amicableList.append(a)
+    
 
     
 
