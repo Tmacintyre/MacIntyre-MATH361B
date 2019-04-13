@@ -9,7 +9,7 @@ import numpy as np
 import math
 import mpmath
 
-N = 20
+N = 100
 TOL = 1e-4
 z0 = 0
 
